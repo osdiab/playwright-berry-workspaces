@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    /* Visit https://aka.ms/tsconfig.json to read more about this file */
+
+    "target": "es2019",
+    "module": "commonjs",
+    "lib": ["esnext"],
+    "noEmit": true,
+
+    /* Strict Type-Checking Options */
+    "strict": true /* Enable all strict type-checking options. */,
+    /* Additional Checks */
+    "noUncheckedIndexedAccess": true /* Include 'undefined' in index signature results */,
+
+    /* Module Resolution Options */
+    "esModuleInterop": true /* Enables emit interoperability between CommonJS and ES Modules via creation of namespace objects for all imports. Implies 'allowSyntheticDefaultImports'. */,
+    "moduleResolution": "node",
+
+    /* Advanced Options */
+    "skipLibCheck": true /* Skip type checking of declaration files. */,
+    "forceConsistentCasingInFileNames": true /* Disallow inconsistently-cased references to the same file. */
+  },
+  "include": ["src"]
+}

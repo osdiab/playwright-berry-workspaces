@@ -1,0 +1,13 @@
+{
+  "name": "example-monorepo",
+  "version": "0.0.0",
+  "description": "Monorepo demonstrating playwright issue",
+  "author": "Omar Diab <me@omardiab.com>",
+  "license": "MIT",
+  "workspaces": [
+    "pkgs/*"
+  ],
+  "devDependencies": {
+    "typescript": "^4.1.3"
+  }
+}
